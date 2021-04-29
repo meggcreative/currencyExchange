@@ -1,2 +1,1 @@
-# currencyExchange
- Currency exchange website
+# currency-converter

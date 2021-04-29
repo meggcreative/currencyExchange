@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/global-style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.min.css" integrity="sha512-0i+Cj480FEdmxsDzL2o0Uj5UEA3Z27RTCP1DZrgJpuIZe6oRbfDA35LCTFyZIRz6WFmRtEleAcDwAip0MhcEsA==" crossorigin="anonymous"
+    />
+</head>
+
+<body>
+    <header class="header">
+        KALKULATOR WALUT
+    </header>
+    <main>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Jaką walutę, którą chcesz zamienić ? </legend>
+                <p>
+                    <label class="form__label">     
+                        <input class="js-currencyEUR"required type="radio" name="current" value="EUR"> EUR
+                        <input class="js-currencyUSD"type="radio" name="current" value="USD"> USD
+                        <input class="js-currencyGBP"type="radio" name="current" value="GBP"> GBP 
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend"> Na jaką walutę, którą chcesz zamienić ? </legend>
+                <p>
+                    <label class="form__label">     
+                        <input class="out-js-currencyEUR" type="checkbox" name="current" value="EUR"> EUR
+                        <input class="out-js-currencyUSD" type="checkbox" name="current" value="USD"> USD
+                        <input class="out-js-currencyGBP" type="checkbox" name="current" value="GBP"> GBP 
+                    </label>
+                </p>
+            </fieldset>
+
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kwota kwotę chcesz przeliczyć ?</legend>
+                <p>
+                    Podaj kwotę: <input class=" form__amount js-amount" name="amount" required value="100" type="number" min="0">
+
+                </p>
+            </fieldset>
+
+            </p>
+            <p>
+
+                <button class="form__button">Przelicz</button>
+            </p>
+
+            </fieldset>
+            <p class="form__converter">
+                Przelicznik PLN: <strong class="js-convert"></strong>
+            </p>
+        </form>
+    </main>
+
+</body>
+
+</html>
