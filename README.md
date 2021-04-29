@@ -8,7 +8,7 @@
 
 ## Preview the coverter
 
-[Currency Converter] (https://meggcreative.github.io/currencyExchange/index.html)
+https://meggcreative.github.io/currencyExchange/index.html
 
 
 ## Basic Information
