@@ -13,4 +13,5 @@ body {
     padding: 20px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/backgroundImage.png");
 }

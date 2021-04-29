@@ -8,7 +8,7 @@
 
 ## Preview the coverter
 
-[ Lets go to currency converter](https://meggcreative.github.io/currencyExchange/index.html)
+[ Lets go to currency converter](https://meggcreative.github.io/currencyExchange/)
 
 ![currency converter site](images/converter.png)
 ## Basic Information
