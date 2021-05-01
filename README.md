@@ -1,4 +1,4 @@
-# Currency Coverter for YouCode project
+# Currency Converter for YouCode project
 
 ## Table of content: 
 * [ Preview the converter](#currency-converter)
