@@ -1,7 +1,7 @@
 # Currency Coverter for YouCode project
 
 ## Table of content: 
-* [ Preview the coverter](#currency-converter)
+* [ Preview the converter](#currency-converter)
 * [ Basic Information ](#basic-information) 
 * [ Used Technologies](#used-technologies)
 * [Usage](#usage)
@@ -25,5 +25,5 @@ This project was created to make a simple example of using forms in JS. This cur
 1. Choose currency which You want to covert to PLN
 2. Enter Your amount 
 3. Press button "Przelicz"
-4. Final converted amount will show on the bottom of page
+4. The Final converted amount You will get on the bottom of page
 
