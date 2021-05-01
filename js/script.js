@@ -7,22 +7,26 @@ let formElement = document.querySelector(".js-form");
 
 let amountElement = document.querySelector(".js-amount");
 
+let rateEUR = 4.56
+let rateUSD = 3.78
+let rateGBP = 5.25
+
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
     switch (true) {
         case currencyEUR.checked:
-            convert = amountElement.value * 4.56;
-            convertElement.innerText = `${convert.toFixed(2)}`
+            convert = amountElement.value / rateEUR;
+            convertElement.innerText = `${convert.toFixed(2)} EUR`
             break;
         case currencyUSD.checked:
-            convert = amountElement.value * 3.78;
-            convertElement.innerText = `${convert.toFixed(2)}`
+            convert = amountElement.value / rateUSD;
+            convertElement.innerText = `${convert.toFixed(2)} USD`
             break;
         case currencyGBP.checked:
-            convert = amountElement.value * 5.25;
-            convertElement.innerText = `${convert.toFixed(2)}`
+            convert = amountElement.value / rateGBP;
+            convertElement.innerText = `${convert.toFixed(2)} GBP`
             break;
     }
 
