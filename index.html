@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency converter</title>
-    <meta property="og:image" content="images/converter.png">
-    <link rel="icon" href="images/ikonka.png">
+    <meta property="og:image" content="images/page.jpg">
+    <link rel="icon" href="images/openGraphCurrency.png">
     <link href="css/global-style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
@@ -24,38 +24,42 @@
         KALKULATOR WALUT
     </header>
     <main>
-        <form class="form js-form">
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">Na jaką walutę, którą chcesz zamienić PLN? </legend>
-                <p>
-                    <label class="form__label">     
-                        <input class="js-currencyEUR"required type="radio" name="current" value="EUR"> EUR
-                        <input class="js-currencyUSD"type="radio" name="current" value="USD"> USD
-                        <input class="js-currencyGBP"type="radio" name="current" value="GBP"> GBP 
+        <div class="container">
+            <form class="form js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Na jaką walutę, którą chcesz zamienić PLN? </legend>
+                    <p>
+                        <label class="form__label">     
+                        <select class="form__amount js-currency">
+                        <option value="EUR"> EUR </option>
+                        <option value="USD"> USD </option>
+                        <option value="GBP"> GBP </option>
+                    </select>
                     </label>
-                </p>
-            </fieldset>
+                    </p>
+                </fieldset>
 
-            </fieldset>
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">Kwota kwotę chcesz przeliczyć ?</legend>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Kwota którą chcesz przeliczyć ?</legend>
+                    <p>
+                        Podaj kwotę w PLN: <input class=" form__amount js-amount" name="amount" required value="100" type="number" min="0">
+
+                    </p>
+                </fieldset>
+
+                </p>
                 <p>
-                    Podaj kwotę w PLN: <input class=" form__amount js-amount" name="amount" required value="100" type="number" min="0">
 
+                    <button class="form__button">Przelicz</button>
                 </p>
-            </fieldset>
 
-            </p>
-            <p>
-
-                <button class="form__button">Przelicz</button>
-            </p>
-
-            </fieldset>
-            <p class="form__converter">
-                Przelicznik: <strong class="js-convert"></strong>
-            </p>
-        </form>
+                </fieldset>
+                <p class="form__converter">
+                    Przelicznik: <strong class="js-result"></strong>
+                </p>
+            </form>
+        </div>
     </main>
 
 </body>
