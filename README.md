@@ -11,7 +11,7 @@
 [ Lets go to currency converter](https://meggcreative.github.io/currencyExchange/)
 
 ![currency converter site](images/page.jpg)
-## Basic Information
+## Basic Informations
 
 This project was created to make a simple example of using forms in JS. This currency converter shows which amount we will get and how much if we want to change PLN for it. Currency to pick: EUR/USD/GBP.
 
