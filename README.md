@@ -1,9 +1,9 @@
 # Currency Converter for YouCode project
 
 ## Table of content: 
-* [ Preview the converter](#currency-converter)
-* [ Basic Informations ](#basic-information) 
-* [ Used Technologies](#used-technologies)
+* [Preview the converter](#currency-converter)
+* [Basic Informations](#basic-information) 
+* [Used Technologies](#used-technologies)
 * [Usage](#usage)
 
 ## Preview the converter
