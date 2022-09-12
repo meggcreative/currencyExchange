@@ -1,8 +1,8 @@
 # Currency Converter for YouCode project
 
 ## Table of content: 
-* [Preview the converter](#currency-converter)
-* [Basic Informations](#basic-information) 
+* [Preview the converter](#preview-the-converter)
+* [Basic Informations](#basic-informations) 
 * [Used Technologies](#used-technologies)
 * [Usage](#usage)
 
