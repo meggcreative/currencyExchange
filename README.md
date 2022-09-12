@@ -2,7 +2,7 @@
 
 ## Table of content: 
 * [ Preview the converter](#currency-converter)
-* [ Basic Information ](#basic-information) 
+* [ Basic Informations ](#basic-information) 
 * [ Used Technologies](#used-technologies)
 * [Usage](#usage)
 
