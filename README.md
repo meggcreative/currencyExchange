@@ -6,7 +6,7 @@
 * [ Used Technologies](#used-technologies)
 * [Usage](#usage)
 
-## Preview the coverter
+## Preview the converter
 
 [ Lets go to currency converter](https://meggcreative.github.io/currencyExchange/)
 
